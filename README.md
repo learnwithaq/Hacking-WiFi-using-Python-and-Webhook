@@ -19,7 +19,8 @@ pyinstaller --onefile --onefile --distpath . --specpath . --workpath . --name <y
 
 The above command will bind python interpreter and every dependency within the exe file. This way Windows Defender will not consider it malicious exe.
 Also try not to make the filename look malicious.
-
+<br><br>
+<hr>
 ⚠️ <b>DISCLAIMER</b><br>
 
 This Python script is intended strictly for **educational and authorized penetration testing** purposes only.
