@@ -20,5 +20,17 @@ pyinstaller --onefile --onefile --distpath . --specpath . --workpath . --name <y
 The above command will bind python interpreter and every dependency within the exe file. This way Windows Defender will not consider it malicious exe.
 Also try not to make the filename look malicious.
 
-<b>⚠️ Disclaimer:</b>
-This guide is for educational and ethical penetration testing purposes only. Only test on authorized networks or isolated labs.
+⚠️ <b>DISCLAIMER</b><br>
+
+This Python script is intended strictly for **educational and authorized penetration testing** purposes only.
+
+You are solely responsible for how you use this code. Unauthorized access to Wi-Fi networks is illegal and unethical. 
+By using this tool, you agree that:
+
+- You have explicit written permission to test the network.
+- You will not use this code for any unauthorized or malicious activities.
+- You comply with all local laws, regulations, and ethical hacking guidelines.
+
+The creator of this script is **not responsible** for any damage, misuse, or legal consequences arising from its use.
+
+🔐 Always hack ethically. Test responsibly. Learn securely.
